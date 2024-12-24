@@ -212,51 +212,7 @@
 }
 
 /* ************************************************ */
-#one11{
-    width: 100%;
-    /* border: 2px solid black;    */
-}  
-#one11 h1{
-    justify-content: center;
-    text-align: center;
-    margin-top: 2%;
-    font-size: 45px;
-}
-#one11 .one12 {
-    display: grid;
-    grid-template-columns: auto auto auto auto ;
-    gap: 20px; 
-    justify-content: center;
-} 
-#one11 .one12 div{
-    width: 300px;
-    height: 250px;
-    /* border: 1px solid rgb(12, 11, 11);  */
-    /* border-radius: 20px; */
-    display: flex;
-    justify-content: center; 
-    margin-bottom: 8%;
 
-}
-.one12 .a1 video{
-    width: 300px;
-    height: 250px;
-}
-.one12 .a2 video{
-    width: 300px;
-    height: 250px;
-}
-.one12 .a3 video{
-    width: 300px;
-    height: 250px;
-}
-.one12 .a4 video{
-    width: 300px;
-    height: 250px;
-}
-
-
-/* ************************************************ */
 
 .footer .main-part{
     background-color: black;
