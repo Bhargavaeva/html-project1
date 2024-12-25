@@ -128,7 +128,7 @@ button:hover{
 
 /* ************************************************ */
 
-.footer .main-part{
+/* .footer .main-part{
     background-color: black;
     padding: 35px; 
     display: grid;
@@ -141,7 +141,7 @@ button:hover{
     text-decoration: none;
     font-size: 35px;
     /* font-weight: 300; */
-    margin: 10px;
+    /* margin: 10px;
 }
 .footer-para{
     color: whitesmoke;
@@ -180,11 +180,11 @@ button:hover{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url(loginpage.jpg);
+    background-image: url(loginpage.jpg); */
     /* background-repeat: no-repeat;
     background-size: cover; */
-}
- 
+/* } */
+  */
 
 
 
