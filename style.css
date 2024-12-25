@@ -178,7 +178,7 @@ div img{
      background-repeat: no-repeat;
 }
 
-/* third section ends here ************/
+/* third section ends here ***************************************/
 
 #active{
     width: 100%;
@@ -307,7 +307,14 @@ div img{
     padding: 15px;
     font-size: 20px;
 } 
+
+
+
 /* ********************************************* */
+/* *************************media query starts here******************************* */
+
+
+
  @media screen and (max-width: 480px) {  
 .navdiv nav ul{
     display: none; 
@@ -328,13 +335,69 @@ div img{
  }
 .menu-checkbox:checked~ nav ul{
     display: flex;
-    background-color: rgba(0, 0, 0, 0.37);
+    background-color: rgba(0, 0, 0, 0.464);
 } 
 .menu-checkbox{
     display: none;
 }
+#home div h1{
+   font-size: 32px; 
+}
+#home div p{
+    font-size: 32px; 
+}
 
+/* *********************************************8 */
+#about{
+    height: 360vh;
+}
 
+#about .aboutdiv{
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+   
+}  
+ #about .aboutdiv div{
+    margin-bottom: 150px;
+ }
+
+ /* ********************************************** */
+ #eva{
+    height: 150vh;
+ }
+ #eva .eva2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+ }
+ #eva .eva2 div{
+    width: 70%;
+    margin-top: 35%;
+ }
+
+.eva2 div h1{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50%;
+}
+.eva2 div h2{
+    font-size: 23px;
+    text-align: center;
+}
+.eva2 div img{
+    width: 350px;
+    height: 300px;
+    align-items: center;
+}
+/* ************************************************* */
+#active{
+    
+}
 }
   
 
