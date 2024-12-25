@@ -58,6 +58,15 @@
  .navdiv .logo i{
     font-size: 30px;
  }
+ .menu-icon{
+    padding-left: 30%;
+}
+.menu-icon{
+    display: none;
+}
+.menu-checkbox{
+    display: none;
+}
  /* *************navbar ends here********************************* */
 #seconddd{
     width: 100%;
@@ -290,4 +299,42 @@
     font-size: 20px;
 } 
 
+/* ********************************************************* */
+
+/* ********************media query starts here************* */
+
+
+@media screen and (max-width: 480px) {  
+    .navdiv nav ul{
+        display: none; 
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        right: 20px;
+        background-color: #444;
+        padding: 10px;
+        border-radius: 5px;
+        gap: 10px;
+        padding: 10px;
+        }
+    .menu-icon {
+        display: block;
+        font-size: 1.5rem;
+        cursor: pointer;
+     }
+    .menu-checkbox:checked~ nav ul{
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.464);
+    } 
+    .menu-checkbox{
+        display: none;
+    }
+    #home div h1{
+       font-size: 32px; 
+    }
+    #home div p{
+        font-size: 32px; 
+    }
+    /* ************************************************* */
+}
   
