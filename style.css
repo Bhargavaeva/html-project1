@@ -98,7 +98,7 @@ button a{
 
 #about{
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     background-size: cover;
     /* background-image: url(backround222.jpg); */
     background-repeat: no-repeat;
@@ -136,7 +136,7 @@ div img{
     display: flex;
     align-items: center;
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     /* border: 2px solid grey; */
     justify-content: space-evenly;
 }
@@ -378,7 +378,7 @@ div img{
  }
  #eva .eva2 div{
     width: 70%;
-    margin-top: 35%;
+    margin-top: 25%;
  }
 
 .eva2 div h1{
@@ -394,7 +394,7 @@ div img{
     width: 350px;
     height: 300px;
     align-items: center;
-    margin-right: 20%;
+    
 }
 /* ************************************************* */
 

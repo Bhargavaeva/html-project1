@@ -336,6 +336,51 @@
         font-size: 32px; 
     }
     /* ************************************************* */
+    #seconddd .secondd{
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        flex-wrap: wrap;
+    }
+    .secondd .div1 h1{
+        font-size: 40px;
+        padding-right: 20%;
+    }
+    .secondd .div1 p{
+        font-size: 22px;
+        padding-left: 4%;
+        margin-top: 12%;
+    }
+    .div1 button {
+        width: 25%;
+        height: 8vh;
+        margin-left: 25%;
+        margin-top: 20%;
+    }
+    .secondd .div2{
+        margin-right: 32%;
+       
+    }
+    .secondd{
+        gap: 1px;
+    }
+     /* ************************************************* */
+    #second1{
+        height: 153vh;
+    }
+    #second1 h1{
+        font-size: 40px;
+        margin-top: 20%;
+    } 
+    #second1 .second2{
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        flex-wrap: wrap;
+    }
+
+  
+    /* *************************************************** */
     .footer .main-part{
         border-top-right-radius: 0;
     }
