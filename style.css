@@ -367,7 +367,8 @@ div img{
 
  /* ********************************************** */
  #eva{
-    height: 150vh;
+    height: 130vh;
+
  }
  #eva .eva2{
     display: flex;
@@ -393,6 +394,7 @@ div img{
     width: 350px;
     height: 300px;
     align-items: center;
+    margin-right: 20%;
 }
 /* ************************************************* */
 
