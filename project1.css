@@ -336,5 +336,8 @@
         font-size: 32px; 
     }
     /* ************************************************* */
+    .footer .main-part{
+        border-top-right-radius: 0;
+    }
 }
   
