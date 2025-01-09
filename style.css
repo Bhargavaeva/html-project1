@@ -101,7 +101,7 @@ button a{
     height: 90vh;
     background-size: cover;
     /* background-image: url(backround222.jpg); */
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
 }
  #about .aboutdiv{
     display: grid;
@@ -389,11 +389,11 @@ div img{
     font-size: 23px;
     text-align: center;
 }
-.eva2 div img{
+ .eva2 div img{
     width: 350px;
     height: 300px;
-    
-}
+    /* margin-right: 60%; */
+} 
 /* ************************************************* */
 
 #active h1{
